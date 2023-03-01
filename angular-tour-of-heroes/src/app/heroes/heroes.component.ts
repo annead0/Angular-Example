@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {Hero}  from '../heroes';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
@@ -11,7 +11,3 @@ export class HeroesComponent {
     name:'Windstorm'
    };
 }
-export default interface hero{
-  id:number;
-  name:string;
-};
