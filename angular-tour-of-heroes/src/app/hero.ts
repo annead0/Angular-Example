@@ -1,4 +1,4 @@
 export default interface hero{
-  id:number;
-  name:string;
+  id:1;
+  name:"Joan";
 };
